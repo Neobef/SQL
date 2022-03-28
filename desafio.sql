@@ -56,29 +56,29 @@ post(id)
 );
 
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0001', '001', '2021/03/28', '15:00');
+VALUES ('0001', '001', '2021/03/28', '15:00', 'comentarios1');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0002', '001', '2021/03/28', '15:10');
+VALUES ('0002', '001', '2021/03/28', '15:10', 'comentarios2');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0003', '006', '2021/03/28', '15:12');
+VALUES ('0003', '006', '2021/03/28', '15:12', 'comentarios3' );
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0004', '006', '2021/03/28', '15:15');
+VALUES ('0004', '006', '2021/03/28', '15:15', 'comentarios4');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0005', '006', '2021/03/28', '15:18');
+VALUES ('0005', '006', '2021/03/28', '15:18', 'comentarios5');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0006', '006', '2021/03/28', '15:24');
+VALUES ('0006', '006', '2021/03/28', '15:24', 'comentarios6');
 
 INSERT INTO post (id, nombre_de_usuario, fecha_de_creacion, contenido, descripcion, titulo) 
 VALUES ('007','margarita','2021/03/28','contenido 7', 'descripcion de contenido 7', 'titulo7');
 
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0007', '007', '2021/03/28', '15:54');
+VALUES ('0007', '007', '2021/03/28', '15:54', 'comentarios7');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0008', '007', '2021/03/28', '15:54');
+VALUES ('0008', '007', '2021/03/28', '15:54', 'comentarios8');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0009', '007', '2021/03/28', '15:55');
+VALUES ('0009', '007', '2021/03/28', '15:55', 'comentarios9');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0010', '007', '2021/03/28', '15:56');
+VALUES ('0010', '007', '2021/03/28', '15:56', 'comentarios10');
 INSERT INTO comentarios (id, post_id, fecha, hora_de_creacion, contenido)
-VALUES ('0011', '007', '2021/03/28', '15:58');
+VALUES ('0011', '007', '2021/03/28', '15:58', 'comentarios11');
 
