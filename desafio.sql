@@ -4,7 +4,7 @@ CREATE TABLE post(
 id VARCHAR(25) NOT NULL,
 nombre_de_usuario VARCHAR(25) NOT NULL,
 fecha_de_creacion DATE NOT NULL,
-contenido VARCHAR(25),
+contenido VARCHAR(50),
 descripcion VARCHAR(50),
 PRIMARY KEY (id)
 );
